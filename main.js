@@ -6,7 +6,7 @@ function setup() {
     canvas.position(530, 295);
     Cam = createCapture(VIDEO);
     Cam.hide();
-    classifier = ml5.imageClassifier(MobileNet, modelloaded);
+    classifier = ml5.imageClassifier("MobileNet", modelloaded);
 
 }
 function draw() {
